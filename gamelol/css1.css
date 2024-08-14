@@ -1,0 +1,31 @@
+body {
+    background-color: green;
+    font: small-caps bold 50px/1 sans-serif;
+    text-align: center;
+    text-anchor: middle;
+}
+h3 {
+    font-size: 100px;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
