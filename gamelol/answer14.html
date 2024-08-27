@@ -38,11 +38,12 @@
     </div>
 
     <div id="content">
-        <h2 style="text-align: left;">De quem é</h2>
-        <h2 style="text-align: left;">essa risada?</h2>
+        <h2 style="text-align: left;">É do:</h2>
+        <h2 style="text-align: left;">Kha'Zix!!</h2>
     </div>
 
     <div class="button-container">
+        <button onclick="goBack()">Voltar à pergunta</button>
         <button onclick="navigateToPage()">Página Inicial</button>
     </div>
 
@@ -54,6 +55,9 @@
         videoPlayer.addEventListener('play', () => {
             console.log('O vídeo começou a tocar');
         });
+        function goBack() {
+            window.history.back();
+        };
     </script>
 </body>
 </html>

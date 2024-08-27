@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Áudio</title>
+    <link rel="stylesheet" href="css5.css">
+</head>
+<body>
+    <h1>A quem pertence</h1>
+    <h1>Essa risada?</h1>
+    <audio id="audioPlayer" controls>
+        <source src="riso3.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <div class="button-container">
+        <button onclick="navigateToPage()">Resposta</button>
+        <button onclick="goBack()">Página Inicial</button>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+        function navigateToPage() {
+            window.location.href = "answer24.html";
+        }
+    </script>
+</body>
+</html>
